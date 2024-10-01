@@ -1,0 +1,10 @@
+CREATE DATABASE db_user;
+
+USE db_user;
+
+CREATE TABLE User (
+    id INT(6) AUTO_INCREMENT PRIMARY KEY,
+    nama VARCHAR(50) NOT NULL,
+    kelas VARCHAR(10) NOT NULL,
+    foto VARCHAR(100) NOT NULL
+);
